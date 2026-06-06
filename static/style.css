@@ -1,0 +1,45 @@
+body {
+    background: #111827;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background: #1f2937;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+a {
+    color: #60a5fa;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quantum Music Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Quantum Music Generator</h1>
+
+    <p>
+        Generate melodies from quantum circuits.
+    </p>
+
+    <div class="card">
+
+        <label>Qubits</label>
+
+        <input
+            type="number"
+            id="qubits"
+            value="4"
+            min="2"
+            max="8"
+        >
+
+        <label>Depth</label>
+
+        <input
+            type="number"
+            id="depth"
+            value="6"
+            min="1"
+            max="20"
+        >
+
+        <button onclick="generateMusic()">
+            Generate
+        </button>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Measurements</h2>
+
+        <pre id="measurements"></pre>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Generated Notes</h2>
+
+        <pre id="notes"></pre>
+
+    </div>
+
+    <div class="card">
+
+        <a
+            id="download"
+            href="#"
+            style="display:none;"
+        >
+            Download MIDI
+        </a>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
